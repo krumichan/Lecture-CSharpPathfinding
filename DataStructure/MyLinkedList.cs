@@ -36,6 +36,7 @@ namespace Lecture_CSharpPathfinding
             return newNode;
         }
 
+        // O(1)
         public void Remove(MyLinkedListNode<T> node)
         {
             // room이 first Node일 경우.

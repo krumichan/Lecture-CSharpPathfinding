@@ -6,9 +6,9 @@ namespace Lecture_CSharpPathfinding
 {
     class MyList<T>
     {
-        const int DEFAULT_SIZE = 1;
+        const int DEFAULTSize = 1;
 
-        T[] _data = new T[DEFAULT_SIZE];
+        T[] _data = new T[DEFAULTSize];
 
         public int Count = 0; // 실제 사용중인 데이터 갯수.
         public int Capacity { get { return _data.Length; } } // 예약된 데이터 갯수.
