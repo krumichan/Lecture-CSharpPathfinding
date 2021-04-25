@@ -1,0 +1,13 @@
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.exe
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.deps.json
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.runtimeconfig.json
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.runtimeconfig.dev.json
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.dll
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\bin\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.pdb
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.csprojAssemblyReference.cache
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.AssemblyInfoInputs.cache
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.AssemblyInfo.cs
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.csproj.CoreCompileInputs.cache
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.dll
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.pdb
+C:\developer\unityws\lecture\vs\Lecture-CSharpPathfinding\obj\Debug\netcoreapp3.1\Lecture-CSharpPathfinding.genruntimeconfig.cache
