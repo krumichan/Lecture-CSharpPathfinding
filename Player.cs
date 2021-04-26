@@ -29,11 +29,16 @@ namespace Lecture_CSharpPathfinding
             _board = board;
             
             _points = new List<Position>();
-            _points.Add(new Position(PosY, PosX));
 
+            /*_points.Add(new Position(PosY, PosX));
             RightHandAlgorithmImpl rightHandAlgorithmImpl = new RightHandAlgorithmImpl();
             rightHandAlgorithmImpl.Initialize(_board, this);
-            rightHandAlgorithmImpl.Finding(_points);
+            rightHandAlgorithmImpl.Finding(_points);*/
+
+            BFSAlgorithmImpl bfsAlgorithmImpl = new BFSAlgorithmImpl();
+            bfsAlgorithmImpl.Initialize(_board, this);
+            bfsAlgorithmImpl.Finding(_points);
+
         }
 
         const int MOVE_TICK = 10;
