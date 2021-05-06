@@ -35,10 +35,13 @@ namespace Lecture_CSharpPathfinding
             rightHandAlgorithmImpl.Initialize(_board, this);
             rightHandAlgorithmImpl.Finding(_points);*/
 
-            BFSAlgorithmImpl bfsAlgorithmImpl = new BFSAlgorithmImpl();
+            /*BFSAlgorithmImpl bfsAlgorithmImpl = new BFSAlgorithmImpl();
             bfsAlgorithmImpl.Initialize(_board, this);
-            bfsAlgorithmImpl.Finding(_points);
+            bfsAlgorithmImpl.Finding(_points);*/
 
+            AStarAlgorithmImpl aStarAlgorithmImpl = new AStarAlgorithmImpl();
+            aStarAlgorithmImpl.Initialize(_board, this);
+            aStarAlgorithmImpl.Finding(_points);
         }
 
         const int MOVE_TICK = 10;
@@ -47,7 +50,12 @@ namespace Lecture_CSharpPathfinding
         public void Update(int deltaTick)
         {
             if (_lastIndex >= _points.Count)
-                return;
+            {
+                _lastIndex = 0;
+                _points.Clear();
+                _board.Initialize(_board.Size, _board.Size - 2, _board.Size - 2, this);
+                Initialize(1, 1, _board);
+            }
 
             _sumTick += deltaTick;
             if (_sumTick >= MOVE_TICK)
